@@ -116,7 +116,7 @@ ul {
     margin-right: 20px;
 }
 
-h4 {
+header {
     display: flex;
     justify-content: space-between;
 }
