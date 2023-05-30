@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+ body {
+    background-color: #242742;
+ }
+
+.success-message-window {
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    border-radius: 25px;
+    color: #242742;
+    font-family: "Roboto", sans-serif;
+}
+
+.success-icon {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.success-greeting {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.success-confirmation {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.email-address {
+    font-weight: 700;
+}
+
+.success-btn {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #242742;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.success-btn:hover {
+    background-color: #ff6257;
+    background: linear-gradient(90deg, rgb(238, 21, 104) 20%, rgb(221, 84, 118) 40%, rgb(214, 124, 72) 80%);
+}
+
+.main-container {
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    width: 900px;
+}
+
+.mobile-illustration {
+    display: none;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    font-family: "Robotto", sans-serif;
+    color: #242742;
+    font-weight: 700;
+}
+
+.announce {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: -10px;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.list-of-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15%;
+}
+
+.list-of-benefits li {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.check-icon {
+    margin-left: -40px;
+    margin-right: 20px;
+}
+
+h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    font-size: 14px;
+}
+
+.input-box {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.subscribe-btn {
+    margin-top: 10px;
+    color: white;
+    background-color: #242742;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #ff6257;
+    background: linear-gradient(90deg, rgb(238, 21, 104) 20%, rgb(221, 84, 118) 40%, rgb(214, 124, 72) 80%);
+}
+
+.input-box, .subscribe-btn {
+    border-radius: 10px;
+    height: 50px;
+}
+
+.illustration-section {
+    margin: 15px 15px 15px 0;
+}
+
+@media  screen and (max-width:1000px) {
+
+body {
+    background-color: white;
+}
+
+.success-message-window {
+    width: 100%;
+    padding: 20px;
+}
+
+.success-icon {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.success-confirmation {
+    font-size: 16px;
+    margin-bottom: 150px;
+}
+
+.success-btn {
+    font-size: 16px;
+    font-weight: 700;
+    height: 60px;
+    margin-top: 150px;
+}
+    
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120%;
+}
+
+.announce {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 25px;
+    font-family: "Robotto", sans-serif;
+    color: #242742;
+    font-weight: 700;
+}
+
+.paragraph {
+    margin-bottom: -1px;
+}
+
+.list-of-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+    line-height: 1.5rem;
+}
+
+.list-of-benefits li {
+  display: flex;
+  align-items: center;
+  white-space: normal;
+}
+
+.illustration-desktop {
+    display: none;
+    }
+
+.mobile-illustration {
+    display: flex;
+    width: 100%;
+    }
+
+.subscribe-btn {
+    margin-bottom: 30px;
+}
+
+.input-box, .subscribe-btn {
+    height: 70px;
+}
+}
