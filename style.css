@@ -85,7 +85,6 @@
 .announce {
     font-size: 3rem;
     font-weight: 700;
-    padding-bottom: 30px;
 }
 
 .paragraph {
@@ -125,6 +124,7 @@ header {
 
 .email {
     font-size: 14px;
+    padding-top: 20px;
 }
 
 .input-box {
